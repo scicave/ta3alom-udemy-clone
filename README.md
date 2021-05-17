@@ -24,10 +24,9 @@ Udemy front-end clone with back-end as microservices.
   - [ ] Wish list (add to cart, remove from wish list)
   - [ ] Slider of courses (add to cart or wish list)
 - [ ] [My courses](https://www.udemy.com/home/my-courses)
-  - [ ] My learing
-  - [ ] Collections
-  - [ ] Wishlist
-  - [ ] Archived
+  - [ ] Tabs
+  - [ ] Sort and search
+  - [ ] Pagination (Another course component, but we will use the same couse component)
 - [ ] [Instructor Dashboard](https://www.udemy.com/instructor)
   - [ ] Create cources form
   - [ ] Fill the course details and content
@@ -45,15 +44,21 @@ Udemy front-end clone with back-end as microservices.
 
 1. slider component
   - Home page
-  - My learning page
+  - My courses page
   - Cart page
 2. Hover-Popup component
   - Home page
-3. Cource card component
+3. Course card component
   - Home page
-  - My learning
+  - My courses page
+  - Cart page
 4. Course in wish list component
   - Cart page
+5. Pagination component
+  - My courses page
+6. Header and footer
+  - ***ALL PAGES***
+
 
 ## license
 
