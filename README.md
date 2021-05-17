@@ -57,7 +57,7 @@ Udemy front-end clone with back-end as microservices.
 
 ## components
 
-1. Slider component _(in progress by Muhammad Samir)_
+1. Slider component `in progress by Muhammad Samir`
     - Home page
     - My courses page
     - Cart page
