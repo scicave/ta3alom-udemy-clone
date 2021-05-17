@@ -9,11 +9,17 @@ Udemy front-end clone with back-end as microservices.
 > yarn prod # build in production mode
 ```
 
-# Tasks
+## Pages
 
 - [ ] [Home page](https://www.udemy.com)
-  - [ ] Header (categories & search & cart & wishlist)
-- [ ] [My course](https://www.udemy.com/my-courses)
+  - [ ] Header (search & cart & wishlist & user icon)
+  - [ ] Intro
+  - [ ] My learning (with slider compoenet)
+  - [ ] Section for cources (stack of different types of courses)
+  - [ ] Footer (the same in all pages)
+- [ ] Cart page
+  - [ ] 
+- [ ] [My course](https://www.udemy.com/home/my-courses)
   - [ ] My learing
   - [ ] Collections
   - [ ] Wishlist
@@ -28,7 +34,19 @@ Udemy front-end clone with back-end as microservices.
   - [ ] Video player element
   - [ ] Course contents (resources) sidebar
   - [ ] Course details
+  - [ ] Rate
+  - [ ] Commment
 
+## components
+
+1. slider component
+  - Home page
+  - My learning page
+2. Hover-Popup component
+  - Home page
+4. Cource card component
+  - Home page
+  - My learning
 ## license
 
 MIT
