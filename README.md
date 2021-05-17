@@ -20,19 +20,19 @@ Udemy front-end clone with back-end as microservices.
   - [ ] Input fields for email and pass.
 - [ ] sign up 📝
   - [ ] Input fields.
-- [ ] [Home page 🏠](https://www.udemy.com)
+- [ ] [Home page 🏠](https://www.udemy.com) (states: auth, not auth)
   - [ ] Intro
   - [ ] My learning (with slider compoenet)
   - [ ] Section for other courses (stack of different types of courses)
-- [ ] Cart page
+- [ ] Cart page (states: auth)
   - [ ] See what is in cart (remove, payment)
   - [ ] Wish list (add to cart, remove from wish list)
   - [ ] Slider of courses (add to cart or wish list)
-- [ ] [My courses](https://www.udemy.com/home/my-courses)
+- [ ] [My courses](https://www.udemy.com/home/my-courses) (states: auth)
   - [ ] Tabs
   - [ ] Sort and search
   - [ ] Pagination (Another course component, but we will use the same couse component)
-- [ ] Course content page
+- [ ] Course learning page (states: auth)
   - [ ] Video player element
   - [ ] Resources sidebar
   - [ ] Course details
@@ -40,7 +40,7 @@ Udemy front-end clone with back-end as microservices.
 
 ### Postponed work
 
-- [ ] Course details
+- [ ] Course details (states: enrolled, not enrolled)
   - [ ] Preview video
   - [ ] Title & description 📝 & rating 🌟 & some other details & price 💸 💵
   - [ ] Add to cart & wish list & share
@@ -57,24 +57,28 @@ Udemy front-end clone with back-end as microservices.
 
 ## components
 
-1. slider component
+1. Slider component 
     - Home page
     - My courses page
     - Cart page
 2. Hover-Popup component
     - Home page
-3. Course card component
+3. Course card component 🗂️
     - Home page
     - My courses page
     - Cart page
 4. Course in wish list component
     - Cart page
-5. Pagination component
+5. Pagination component 🔢
     - My courses page
 6. Header and footer
     - ***ALL PAGES***
-7. Resources
+7. Resources 📚
     - Course content page
+8. Video player 🎬
+    - Course details page
+    - Course learning page
+
 
 ## License
 
