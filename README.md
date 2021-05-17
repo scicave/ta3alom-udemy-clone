@@ -74,8 +74,10 @@ Udemy front-end clone with back-end as microservices.
 6. Header and footer
     - ***ALL PAGES***
 7. Resources 📚
-    - Course content page
-8. Video player 🎬
+    - Course details page
+8. Sidebar Resources 📚
+    - Course learning page
+9. Video player 🎬
     - Course details page
     - Course learning page
 
