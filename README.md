@@ -1,8 +1,8 @@
-# react-yarn-webpack
+# Udemy clone
 
 Udemy front-end clone with back-end as microservices.
 
-## scripts
+## Scripts
 
 ```bash
 > yarn dev  # start webpack server
@@ -38,7 +38,7 @@ Udemy front-end clone with back-end as microservices.
   - [ ] Course details
   - [ ] Instructor info
 
-### Postponed work
+## Postponed pages
 
 - [ ] Course details (states: enrolled, not enrolled)
   - [ ] Preview video
@@ -55,9 +55,9 @@ Udemy front-end clone with back-end as microservices.
   - [ ] Fill the course details and content
   - [ ] Other tabs for announcements and messeges
 
-## components
+## Components
 
-1. Slider component `under development` with <ul>Muhammad Samir</ul>
+1. Slider component `under development >> _Muhammad Samir_`
     - Home page
     - Cart page
 2. Hover-Popup component
@@ -79,7 +79,6 @@ Udemy front-end clone with back-end as microservices.
 9. Video player 🎬
     - Course details page
     - Course learning page
-
 
 ## License
 
