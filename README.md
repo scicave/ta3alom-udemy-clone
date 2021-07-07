@@ -14,25 +14,25 @@ Udemy front-end clone with back-end as microservices.
 - [ ] __All pages__
   - [ ] Header (search & cart & wishlist & user icon)
   - [ ] ... page content
-  - [ ] Footer
-- [ ] Login ⬅️
+  - [ ] Footer 
+- [ ] Login ⬅️ ***(@KhaledFarghaly11, @khaledmontaser20)***
   - [ ] Login with
   - [ ] Input fields for email and pass.
-- [ ] sign up 📝
+- [ ] sign up 📝 ***(@KhaledFarghaly11, @khaledmontaser20)***
   - [ ] Input fields.
-- [ ] [Home page 🏠](https://www.udemy.com) (states: auth, not auth)
+- [ ] [Home page 🏠](https://www.udemy.com) ***(@MuhammadSawalhy)***
   - [ ] Intro
-  - [ ] My learning (with slider compoenet)
+  - [ ] My learning (with slider component)
   - [ ] Section for other courses (stack of different types of courses)
-- [ ] Cart page (states: auth)
+- [ ] Cart page (states: auth) ***(@KhaledFarghaly11, @khaledmontaser20)***
   - [ ] See what is in cart (remove, payment)
   - [ ] Wish list (add to cart, remove from wish list)
   - [ ] Slider of courses (add to cart or wish list)
-- [ ] [My courses](https://www.udemy.com/home/my-courses) (states: auth)
+- [ ] [My courses](https://www.udemy.com/home/my-courses) ***(@muhammed-blib)***
   - [ ] Tabs
   - [ ] Sort and search
   - [ ] Pagination (Another course component, but we will use the same couse component)
-- [ ] Course learning page (states: auth)
+- [-] Course learning page
   - [ ] Video player element
   - [ ] Resources sidebar
   - [ ] Course details
