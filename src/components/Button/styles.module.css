@@ -1,0 +1,68 @@
+.btn.primary {
+  --main-color: var(--primary-color-1);
+  --hover-color: var(--primary-color-2);
+  --other-color: white;
+}
+
+.btn.secondary {
+  --main-color: var(--secondary-color-1);
+  --hover-color: var(--secondary-color-2);
+  --other-color: white;
+}
+
+.btn.normal {
+  --main-color: #3c3b37;
+  --hover-color: #3c3b37;
+  --other-color: white;
+  border: 2px solid #989586;
+}
+
+.btn.small {
+  --scale: 0.8;
+}
+.btn.large {
+  --scale: 1.2;
+}
+
+.btn {
+  --scale: 1;
+  font-weight: bold;
+  padding: 1em 2em;
+  border-radius: 0.2em;
+  color: var(--other-color);
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  cursor: pointer;
+  font-size: calc(var(--scale) * 1em);
+}
+
+.btn.outlined {
+  color: var(--main-color);
+  background-color: var(--other-color);
+}
+
+.btn:hover {
+  --main-color: var(--hover-color) !important;
+}
+
+.icon-container {
+  position: relative;
+}
+
+.icon-container.start-icon {
+  padding-right: 1.5em;
+}
+
+.icon-container.end-icon {
+  padding-left: 1.5em;
+}
+
+.icon-container.end-icon > * {
+  right: 0;
+}
+
+.icon-container > * {
+  position: absolute;
+  top: 50%;
+  transform: scale(1.2) translateY(-50%);
+}

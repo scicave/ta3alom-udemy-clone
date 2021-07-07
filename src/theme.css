@@ -2,8 +2,9 @@
   --font-family: "sf pro text", -apple-system, BlinkMacSystemFont, Roboto,
     "segoe ui", Helvetica, Arial, sans-serif, "apple color emoji",
     "segoe ui emoji", "segoe ui symbol";
-  --primary-color: #ec5252;
-  --secondary-color-1: #094c59;
-  --secondary-color-2: #0f7c90;
+  --primary-color-1: #ec5252;
+  --primary-color-2: #a02222;
+  --secondary-color-1: #0f7c90;
+  --secondary-color-2: #094c59;
   --page-padding: 5vw;
 }

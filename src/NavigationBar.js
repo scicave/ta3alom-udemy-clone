@@ -9,20 +9,22 @@ export const NavigationBar = () => {
 
   return (
     <nav className={styles["top-nav"]}>
-      <span className={styles["nav-logo"]}>Ta3alom</span>
+      <span className={styles["nav-logo"]}>
+        <Link to="/">Ta3alom</Link>
+      </span>
       <span style={{ flexGrow: 1 }}></span>
       {/* prettier-ignore */}
       <ul>
-        <li><Link to="/"><a>Home</a></Link></li>
+        <li><Link to="/">Home</Link></li>
         {isAuthed ? (
         <>
-          <li><Link to="/dashboard"><a>Dashboard</a></Link></li>
-          <li><Link to="/logout"><a>Logout</a></Link></li>
+          <li><Link to="/dashboard">Dashboard</Link></li>
+          <li><Link to="/logout">Logout</Link></li>
         </>
         ) : (
         <>
-          <li><Link to="/login"><a>Login</a></Link></li>
-          <li><Link to="/signup"><a>Sign up</a></Link></li>
+          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/signup">Sign up</Link></li>
         </>
         )}
       </ul>

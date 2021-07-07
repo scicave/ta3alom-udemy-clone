@@ -1,9 +1,6 @@
 module.exports = {
   root: true,
-  env: {
-    node: true,
-    es2021: true
-  },
+  env: { node: true, es2021: true },
   extends: [
     "eslint:recommended",
     "plugin:import/errors",
@@ -15,25 +12,20 @@ module.exports = {
   overrides: [
     {
       files: ["./src/**/*.js"],
-      extends: [
-        "eslint:recommended",
-        "plugin:import/errors",
-        "plugin:import/warnings",
-        "plugin:react/recommended"
-      ],
+      extends: ["plugin:react/recommended"],
+      env: { browser: true, node: false },
       plugins: ["react"],
-      env: {
-        browser: true,
-        es2021: true
-      },
+      rules: { "react/prop-types": "off" },
       parser: "@babel/eslint-parser",
       parserOptions: {
-        ecmaFeatures: {
-          jsx: true
-        },
+        ecmaFeatures: { jsx: true },
         ecmaVersion: 12,
         sourceType: "module"
       }
+    },
+    {
+      files: ["./src/components/**/*.js"],
+      rules: { "react/prop-types": 1 }
     }
   ]
 };

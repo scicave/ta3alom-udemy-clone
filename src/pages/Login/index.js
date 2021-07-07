@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import styles from "./styles.scss";
 import { Redirect } from "react-router-dom";
-import { Button } from "../../components/Button.js";
+import { Button } from "../../components/Button";
 import { AuthContext } from "../../auth-context.js";
 
 export const LoginPage = () => {
@@ -12,7 +12,7 @@ export const LoginPage = () => {
     <div>
       <h1 className={styles["header"]}>Login page</h1>
       <Button
-        color="primary"
+        type="primary"
         outlined
         style={{ margin: "auto", display: "block" }}
         onClick={() => {
