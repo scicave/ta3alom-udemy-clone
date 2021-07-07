@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.common.js",
   "scripts": {
-    "dev": "webpack serve --config webpack.dev.js",
+    "dev": "webpack serve --config webpack.dev.js --port 2345",
     "prod": "webpack --config webpack.prod.js",
     "lint": "eslint --fix --format=codeframe .",
     "format": "prettier --write --ignore-path=.eslintignore .",
