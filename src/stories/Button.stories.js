@@ -1,28 +1,12 @@
 import React from "react";
-import PropTypes from "prop-types";
-
-import Button from "../components/Button";
-
-Button.propTypes = {
-  /**
-   * What background color to use
-   */
-  background: PropTypes.string,
-  /**
-   * How large should the button be?
-   */
-  size: PropTypes.oneOf(["small", "medium", "large"]),
-  /**
-   * Optional click handler
-   */
-  onClick: PropTypes.func
-};
+import { Button } from "../components/Button";
 
 export default {
   title: "Components/Button",
   component: Button,
   argTypes: {
-    background: { control: "color" }
+    color: { control: "color" },
+    otherColor: { control: "color" }
   }
 };
 
@@ -30,17 +14,20 @@ const Template = (args) => <Button {...args}>Click me!</Button>;
 
 export const Default = Template.bind({});
 
-export const BlueBackground = Template.bind({});
-BlueBackground.args = {
-  background: "blue"
+export const PrimaryButton = Template.bind({});
+PrimaryButton.args = {
+  color: "primary"
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: "small"
+export const SmallSecondaryButton = Template.bind({});
+SmallSecondaryButton.args = {
+  size: "small",
+  color: "secondary"
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: "large"
+export const LargeOutlinedSecondaryButton = Template.bind({});
+LargeOutlinedSecondaryButton.args = {
+  size: "large",
+  color: "secondary",
+  outlined: true
 };

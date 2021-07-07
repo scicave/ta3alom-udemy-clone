@@ -1,32 +1,20 @@
-import "./style/style.scss";
+// import styles from "./index.scss";
 import { hot } from "react-hot-loader/root";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-
-import Button from "./components/Button";
-
-const HEART = "❤️";
-const MAX_COUNT = 5;
+import { BrowserRouter as Router } from "react-router-dom";
+import { NavigationBar } from "./NavigationBar.js";
+import { NavigationRoutes } from "./NavigationRoutes.js";
+import { AuthContextProvider } from "./auth-context.js";
 
 function App() {
-  let [hearts, setHearts] = useState(HEART);
-
-  useEffect(() => {
-    setTimeout(() => {
-      let h = hearts + HEART;
-      h = h === HEART.repeat(MAX_COUNT + 1) ? HEART : h;
-      setHearts(h);
-    }, 1000);
-  }, [hearts]);
-
   return (
-    <div style={{ textAlign: "center" }}>
-      <h1>React</h1>
-      <h1>Berry</h1>
-      <h1>Webpack</h1>
-      <h1>{hearts}</h1>
-      <Button size="medium">Click me!</Button>
-    </div>
+    <AuthContextProvider>
+      <Router>
+        <NavigationBar />
+        <NavigationRoutes />
+      </Router>
+    </AuthContextProvider>
   );
 }
 

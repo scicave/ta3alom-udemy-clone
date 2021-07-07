@@ -9,7 +9,9 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
-  rules: {},
+  rules: {
+    "no-unused-vars": ["error", { varsIgnorePattern: "^_" }]
+  },
   overrides: [
     {
       files: ["./src/**/*.js"],

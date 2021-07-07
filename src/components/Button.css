@@ -1,18 +1,23 @@
-button {
+.button {
   --scale: 1;
-  border-radius: 4px;
-  color: white;
-  padding: 0.5em 1em;
-  border: none;
-  transition: all 0.1s ease-out;
-  transform: scale(var(--scale));
+  font-weight: bold;
+  padding: 1em 2em;
+  border-radius: 0.2em;
+  color: var(--other-color);
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  cursor: pointer;
 }
 
-button:hover {
+.button.outlined {
+  color: var(--main-color);
+  background-color: var(--other-color);
+}
+
+.button:hover {
   filter: hue-rotate(10deg);
-  transform: scale(calc(var(--scale) + 0.1));
 }
 
-button:active {
-  transform: scale(var(--scale));
+.button:active {
+  filter: hue-rotate(0deg);
 }

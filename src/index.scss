@@ -1,0 +1,33 @@
+@import "./theme.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: var(--font-family);
+}
+
+.top-nav {
+  padding: 1em var(--page-padding);
+  display: flex;
+  flex-wrap: wrap;
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+
+    li > a {
+      padding: 0.5em 1em;
+    }
+  }
+
+  .nav-logo {
+    font-weight: bold;
+    color: silver;
+    margin: 0.5em 0;
+  }
+}
