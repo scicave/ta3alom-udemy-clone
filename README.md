@@ -18,6 +18,21 @@ We are using webpack@5 as the bundler for this project, the SCSS-CSS loader is b
 
 The SCSS-CSS loader is use for storybook as well to make the system coherent.
 
+### Git hooks
+
+One of the reason to use git hooks in this project is that we are using hooks in React as well :D
+
+Git hooks are hooked using *husky*. When you `git commit`, the *pre-commit* hook will start its job to *prettier* the stuff you made, *eslint* them as well, using *lint-staged*.
+
+~~~
+✔ Preparing...
+✔ Running tasks...
+✔ Applying modifications...
+✔ Cleaning up...
+~~~~
+
+### 
+
 ## Tasks
 
 Tasks are assigned to developers as issues, they are organized also in [Pages project](https://github.com/scicave/ta3alom-frontend/projects/3).
