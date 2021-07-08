@@ -5,9 +5,22 @@ Udemy front-end clone with back-end as microservices.
 ## Scripts
 
 ```bash
-> yarn dev  # start webpack server
-> yarn prod # build in production mode
+> yarn dev        # start webpack server
+> yarn prod       # build in production mode
+> yarn storybook  # start-storybook
 ```
+
+## Notes
+
+### CSS modules
+
+We are using webpack@5 as the bundler for this project, the SCSS-CSS loader is by default enables what so called ***CSS modules***. For example I use a CSS module for the [Button component](https://github.com/scicave/ta3alom-frontend/tree/main/src/components/Button). The reason to notice this type of CSS file, the CSS modules, is to make the somponent classes scoped only to the Button and not to the global scope (the whole page). This reduces the unexpected errors and *"Why it is not working?!"*. The second reason is that it is cool ✨️.
+
+The SCSS-CSS loader is use for storybook as well to make the system coherent.
+
+## Tasks
+
+Tasks are assigned to developers as issues, they are organized also in [Pages project](https://github.com/scicave/ta3alom-frontend/projects/3).
 
 ## Pages
 
