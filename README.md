@@ -1,4 +1,4 @@
-# Udemy clone
+# Ta3alom
 
 Udemy front-end clone with back-end as microservices.
 
